@@ -13,6 +13,15 @@
 *.dylib
 
 # Executables
-*.exe
-*.out
-*.app
+psc
+sc
+scqref
+
+# Generated
+experres.h
+gram.c
+pvmtbl.c
+pxmalloc.c
+qhelp.c
+statres.h
+y.tab.h
