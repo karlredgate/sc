@@ -455,6 +455,7 @@ vi.o: vi.c sc.h
 # other stuff
 
 clean:
+	rm -f sc psc scqref
 	rm -f *.o *res.h $(YTAB).h debug core gram.c $(name).1 p$(name).1 \
 	y.output pxmalloc.c pvmtbl.c qhelp.c tags
 
